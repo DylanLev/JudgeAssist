@@ -1,0 +1,49 @@
+// Login.scss
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  
+    h1 {
+      margin-bottom: 20px;
+    }
+  
+    form {
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+  
+      .form-group {
+        margin-bottom: 15px;
+  
+        label {
+          margin-bottom: 5px;
+          font-weight: bold;
+        }
+  
+        input {
+          padding: 8px;
+          border-radius: 5px;
+          border: 1px solid #ccc;
+          width: 100%;
+        }
+      }
+  
+      button {
+        padding: 10px 15px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+  
+        &:hover {
+          background-color: #0056b3;
+        }
+      }
+    }
+  }
+  

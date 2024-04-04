@@ -1,0 +1,30 @@
+.navbar {
+    background-color: #007bff; /* Set background color */
+    padding: 1rem; /* Add padding */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    .navbar-logo a {
+      color: #fff; /* Set text color for logo */
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+  
+    .navbar-links a {
+      color: #fff; /* Set text color for links */
+      text-decoration: none;
+      margin-left: 1.5rem; /* Add spacing between links */
+      font-weight: bold;
+  
+      &:hover {
+        opacity: 0.8; /* Add hover effect */
+      }
+  
+      &:first-child {
+        margin-left: 0; /* Remove left margin for the first link */
+      }
+    }
+  }
+  

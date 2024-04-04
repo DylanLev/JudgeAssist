@@ -1,0 +1,42 @@
+.banner {
+    background-color: #007bff;
+    color: white;
+    padding: 50px 0px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+  
+    .content {
+      h1 {
+        font-size: 30px;
+        margin-left: 40px;
+        margin-bottom: 30px; /* Only specify margin-bottom once */
+      }
+  
+      p {
+        font-size: 20px;
+        margin-left: 40px;
+        margin-bottom: 30px; /* Only specify margin-bottom once */
+      }
+    }
+  
+    .try-button {
+      background-color: #1dbf73;
+      color: white;
+      width: 200px;
+      border: none;
+      border-radius: 5px;
+      padding: 6px 12px;
+      font-size: 0.8rem;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      margin-left: auto; /* Align button to the right */
+      margin-right: 40px; /* Adds margin to separate button from content */
+  
+      &:hover {
+        background-color: #15a15b;
+      }
+    }
+  }
+  

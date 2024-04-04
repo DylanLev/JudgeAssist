@@ -1,0 +1,42 @@
+.welcome-message {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold; // Make the text bold
+  color: #333; // Change the color of the text
+  text-align: center; // Center align the text
+   // Convert text to uppercase
+}
+
+.model-button {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  transition: transform 0.3s ease, filter 0.3s ease;
+
+  img {
+    width: 150px; /* Adjust the size as needed */
+    height: auto;
+    filter: brightness(0.8); /* Apply a filter to the image */
+    transition: filter 0.3s ease;
+  }
+  
+  
+
+  span {
+    color: black;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  &:hover {
+    transform: scale(1.1); /* Increase size on hover */
+    img {
+      filter: brightness(1); /* Adjust brightness on hover */
+    }
+  }
+}
+

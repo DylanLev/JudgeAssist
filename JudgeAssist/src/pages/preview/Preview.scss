@@ -1,0 +1,66 @@
+.preview {
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
+  
+    .judgment-copy-content {
+      background-color: #fff;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+      h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        color: #333;
+      }
+  
+      p {
+        font-size: 16px;
+        line-height: 1.5;
+        color: #555;
+      }
+    }
+  
+    .action-buttons {
+      display: flex;
+      justify-content: space-between;
+  
+      button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+  
+        &:hover {
+          background-color: #007bff;
+          color: #fff;
+        }
+  
+        &.download {
+          background-color: #28a745;
+          color: #fff;
+        }
+  
+        &.share {
+          background-color: #007bff;
+          color: #fff;
+        }
+  
+        &.collaborate {
+          background-color: #ffc107;
+          color: #333;
+        }
+      }
+    }
+  }
+  
